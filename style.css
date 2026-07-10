@@ -1,3 +1,188 @@
-html{
-    background-color: blue;
+body{
+margin:0;
+font-family:Roboto,sans-serif;
 }
+.hero{
+    background-color: #1F2937;
+    display:flex;
+    flex-direction: column;
+   }
+.logo{
+    color:#F9FAF8;
+    font-size : 24px
+}
+h1{
+    color:#F9FAF8;
+    font-size: 48px;
+}
+.secondary{
+  font-size:18px;
+  color:#E5E7EB;
+}
+button{
+    background-color:#3882F6 ;
+    color : #E5E7EB;
+    border-radius:10px;
+}
+
+
+
+.header{
+    display : flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   THE ODIN PROJECT - LANDING PAGE STYLE GUIDE
+   ========================================================== */
+
+/* -------------------- FONT -------------------- */
+/*
+Font Family:
+Roboto
+*/
+
+/* -------------------- COLORS -------------------- */
+/*
+Hero & Footer Background:
+#1F2937
+
+Hero Main Text:
+#F9FAF8
+
+Hero Secondary Text:
+#E5E7EB
+
+Header Logo Text:
+#F9FAF8
+
+Buttons / CTA Background:
+#3882F6
+
+Information Header Text:
+#1F2937
+
+Quote Section Background:
+#E5E7EB
+
+Quote Text:
+#1F2937
+*/
+
+/* -------------------- FONT SIZES -------------------- */
+/*
+Hero Main Heading
+Font Size : 48px
+Font Weight : 900
+Color : #F9FAF8
+*/
+
+/*
+Hero Secondary Text
+Font Size : 18px
+Color : #E5E7EB
+*/
+
+/*
+Header Logo
+Font Size : 24px
+Color : #F9FAF8
+*/
+
+/*
+Information Section Heading
+Font Size : 36px
+Font Weight : 900
+Color : #1F2937
+*/
+
+/*
+Quote Text
+Font Size : 36px
+Font Weight : 300
+Font Style : Italic
+Color : #1F2937
+*/
+
+/*
+Quote Author
+Font Weight : Bold
+*/
+
+/* ==========================================================
+   SECTIONS
+   ========================================================== */
+
+/*
+1. Hero Section
+   - Header
+   - Hero Content
+
+2. Information Section
+
+3. Quote Section
+
+4. Call To Action Section
+
+5. Footer
+*/
+
+/* ==========================================================
+   FLEXBOX CHECKLIST
+   ========================================================== */
+
+/*
+For every container ask:
+
+1. Does it have children?
+   -> display: flex;
+
+2. Row or Column?
+   -> flex-direction
+
+3. Main axis alignment?
+   -> justify-content
+
+4. Cross axis alignment?
+   -> align-items
+
+5. Need spacing?
+   -> gap
+*/
