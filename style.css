@@ -6,13 +6,15 @@ font-family:Roboto,sans-serif;
     background-color: #1F2937;
     display:flex;
     flex-direction: column;
-   }
+   
+       }
 .logo{
     color:#F9FAF8;
     font-size : 24px
 }
 h1{
     color:#F9FAF8;
+    margin: 0;
     font-size: 48px;
 }
 .secondary{
@@ -24,6 +26,21 @@ button{
     color : #E5E7EB;
     border-radius:10px;
 }
+.placeholderImage{
+    font-size:18px;
+    color:#E5E7EB;
+    height: 200px;
+    width: 292px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: gray;
+    flex: 1;
+}
+
+
+
+
 
 
 
@@ -39,6 +56,23 @@ ul{
     flex-direction: row;
     gap:20px;
     
+}
+
+
+
+.heroContent{
+   display: flex ;
+   flex-direction: row;
+   /*justify-content: space-between;*/
+   gap: 50px;
+   padding:105px;
+   /*align-items: flex-start;*/
+      }
+.left-content{
+   display: flex ;
+   flex-direction: column;
+   align-items: flex-start;
+   flex:1;
 }
 
 
