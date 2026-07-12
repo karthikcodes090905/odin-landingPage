@@ -105,18 +105,30 @@ background-color: white;
    justify-content: space-between;
    padding:105px;
    padding-top:25px;
+   gap:15px;
 }
 
 
+.quote-content{
+   display: flex;
+   flex-direction: column;
+   flex : 1;
+   background-color:#E5E7EB ;
+   justify-content: end;
+   padding: 105px;
+}
+.quote-text{
+   color:#1F2937;
+   font-size:26px;
+   font-weight: 300;
+   font-style: italic;
+   text-align: center;
+   }
 
-
-
-
-
-
-
-
-
+.author-name{
+ font-weight: bold;
+ align-self: flex-end;
+} 
 
 
 
