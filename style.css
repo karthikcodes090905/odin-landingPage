@@ -6,7 +6,7 @@ font-family:Roboto,sans-serif;
     background-color: #1F2937;
     display:flex;
     flex-direction: column;
-   
+    flex:1;
        }
 .logo{
     color:#F9FAF8;
@@ -77,6 +77,35 @@ ul{
 
 
 
+
+/* 12/07/26 */
+
+.information{
+flex:1;
+display:flex;
+flex-direction: column;
+}
+.information-title{
+font-size: 36px ;
+font-weight: 900 ;
+color:#1F2937 ;
+text-align: center;
+padding-top: 30px;
+font-family:Roboto,sans-serif;
+}
+.box{
+width: 160px;
+height: 160px;
+border: 4px solid #3882F6;
+border-radius: 12px;
+background-color: white; 
+}
+.cards-container{
+   display:flex;
+   justify-content: space-between;
+   padding:105px;
+   padding-top:25px;
+}
 
 
 
