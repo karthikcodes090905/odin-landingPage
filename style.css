@@ -38,12 +38,6 @@ button{
     flex: 1;
 }
 
-
-
-
-
-
-
 .header{
     display : flex ;
     flex-direction: row;
@@ -57,7 +51,6 @@ ul{
     gap:20px;
     
 }
-
 
 
 .heroContent{
@@ -160,10 +153,14 @@ background-color: white;
 
 
 
-
-
-
-
+.footer{
+   background-color: #1F2937;
+   color: #E5E7EB;
+   font-size:18px;
+   text-align: center;
+   padding: 50px 150px; 
+  
+ }
 
 
 
